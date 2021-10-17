@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    border:solid 1px black;
+    
+    
+  }
+  
+  .quiz input {
+    width: 50%;
+    padding: 0.3rem;
+  }
+  h1{
+    font-size:5rem
+  }
+  
