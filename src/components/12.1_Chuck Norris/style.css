@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url('https://media.istockphoto.com/photos/happy-puppy-dog-smiling-on-isolated-yellow-background-picture-id1267466399?b=1&k=20&m=1267466399&s=170667a&w=0&h=KvxHe6yir1ZBtHVp4hYLxDv-g3nkvmzhi-sn0D9w9VQ=') no-repeat center center/cover;
+}
+.ztam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.btn{
+    border: 1px black solid;
+    background: chartreuse;
+    padding: 10px;
+    margin: 10px;
+}
+.ztam2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+p{
+    font-size: 35px;
+    font-weight: bold;
+}
