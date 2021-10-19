@@ -26,8 +26,8 @@ render() {
   }
   componentDidUpdate(state) {
     console.log(state);
-    const emptyDiv = document.querySelector("#CurColor");
-    emptyDiv.innerHTML = `The updated favorite color is ${this.state.favoriteColor}`;
+    const CurColor = document.querySelector("#CurColor");
+    CurColor.innerHTML = `The updated favorite color is ${this.state.favoriteColor}`;
   }
 }
 
