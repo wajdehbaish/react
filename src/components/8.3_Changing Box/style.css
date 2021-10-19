@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: coral;
+    position: relative;
+    animation-name: wajde;
+    animation-duration: 2.5s;
+}
+@keyframes wajde {
+    0%   { background: red;}
+    25%  { background: blue;}
+    50%  { background: yellow;}
+    75%  { background: green;}
+    100% { background: red;}
+}
